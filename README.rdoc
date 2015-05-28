@@ -5,24 +5,20 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
+* Ruby & Rails version
+  Ruby version is 1.9.5.
+  Rails version is 4.1.4.
+  
+* Database creation & initialization
+  mysql 5.5
+  db:create
+  db:migrate
+  
 * How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+  1.gem install
+  2. refer Database creation & initialization
+  3. rails s
+  
+  This is a CRUD app made by rails-api, jquery& AJAX. In this demo, rails only provides few crud api.
+  这个应用使用了rails-api gem，与一般rails不同在于没有了rails自动生成的view层，只有model和control而层，实现了几个简单的增删改查接口。
+  
